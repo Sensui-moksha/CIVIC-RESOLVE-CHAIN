@@ -1,0 +1,9 @@
+[package]
+name = "DeFix"
+version = "0.0.1"
+
+[addresses]
+defix = "0x023c80d6011fefb3cb1991536eba513fdb9789a71a18030efd8402a2b8a7805a" # derived from public key
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }
