@@ -214,6 +214,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
     <a href="SETUP_GUIDE.md">Setup Guide</a>
   </p>
 </div>
-#   C I V I C - R E S O L V E - C H A I N  
- #   C I V I C - R E S O L V E - C H A I N  
+#   C I V I C - R E S O L V E - C H A I N 
+ 
+ #   C I V I C - R E S O L V E - C H A I N 
+ 
  
