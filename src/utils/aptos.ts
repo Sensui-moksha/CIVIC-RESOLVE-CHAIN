@@ -12,7 +12,10 @@ const ensureWallet = () => {
   return window.aptos;
 };
 
-const moduleFn = (moduleAddress: string, func: string) => `${moduleAddress}::ProblemRegistry::${func}`;
+const moduleAddress: string = "023c80d6011fefb3cb1991536eba513fdb9789a71a18030efd8402a2b8a7805a";
+
+const moduleFn = (moduleAddress: string, func: string) => `023c80d6011fefb3cb1991536eba513fdb9789a71a18030efd8402a2b8a7805a::ProblemRegistry::${func}`; //update your
+// module address here after publishing the sender
 
 export async function callCreateProblem(moduleAddress: string, cid: string, lat: number, lng: number, bountyOctas: string) {
   const wallet = ensureWallet();
