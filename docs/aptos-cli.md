@@ -1,6 +1,6 @@
 # Aptos CLI Setup (Testnet)
 
-Follow these steps locally (outside Lovable) to deploy and interact with the Move contract.
+Follow these steps locally  to deploy and interact with the Move contract.
 
 1) Install Aptos CLI
 - macOS: brew install aptos
